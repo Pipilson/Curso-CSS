@@ -7,7 +7,7 @@
 
 header{
 	background-color: #35B8B0;
-	height: 100px;
+	height: 120px;
 	padding: 30px;
 }
 
@@ -32,20 +32,43 @@ h1{
 footer{
 	clear: both;
 	background-color: #35B8B0;
+	background-image: -webkit-linear-gradient(red,blue); /*Safari, Chrome*/
+	background-image: -moz-linear-gradient(red,blue); /*Firefox*/
+	background-image: -o-linear-gradient(red,blue); /*Opera*/
 	height: 44px;
 	text-align: center;
 	padding: 10px;
 }
 
-/* class */
+/* ID */
 #div_principal{
 	background-image: url('milly.png');
+	clear: both;
 	background-size: 100%;
 	min-height: 1000px;
 	padding: 100px 0 0 0;
 }
 
-/* ID */
+#logo{
+	float: left;
+}
+
+#menu{
+	float: right;
+	margin-top: 10px;
+}
+
+#menu a{
+	padding: 10px 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover{
+	background-color: red;
+}
+
+/* class */
 .container{
 	width: 1200px;
 	margin:0 auto;
