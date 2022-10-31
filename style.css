@@ -1,45 +1,57 @@
 /* Comentário */
-p{
-	color: #FF0000;
-	font-size: 38px;
+*{
+	margin: 0;
+	padding: 0;
 	font-family: Helvetica, Arial;
+}
+
+header{
+	background-color: #35B8B0;
+	height: 100px;
+	padding: 30px;
 }
 
 body{
 	background-color: black;
 }
 
-*{
-	margin: 0;
-	padding: 0;
+p{
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: Helvetica, Arial;
+	text-shadow: 2px 2px 2px #111111;
 }
 
-header{
-	background-color: green;
-	height: 62px;
-}
-
-#div_esquerda{
-	background-color: red;
-	min-height: 200px;
-	width: 60%;
-	float: left;
-}
-
-#div_direita{
-	background-color: yellow;
-	min-height: 200px;
-	width: 40%;
-	float: right;
+h1{
+	color: #FF0000;
+	text-shadow: 2px 2px 2px #111111;
+	text-align: center;
+	margin: 0 0 50px 0;
 }
 
 footer{
 	clear: both;
-	background-color: blue;
+	background-color: #35B8B0;
 	height: 44px;
+	text-align: center;
+	padding: 10px;
 }
 
+/* class */
+#div_principal{
+	background-image: url('milly.png');
+	background-size: 100%;
+	min-height: 1000px;
+	padding: 100px 0 0 0;
+}
+
+/* ID */
 .container{
 	width: 1200px;
 	margin:0 auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px 0 50px 0;
 }
